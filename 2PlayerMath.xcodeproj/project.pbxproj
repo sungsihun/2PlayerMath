@@ -101,13 +101,10 @@
 		06AB29EB2118F8B500F25196 /* 2PlayerMath */ = {
 			isa = PBXGroup;
 			children = (
-				06AB29EC2118F8B500F25196 /* AppDelegate.h */,
-				06AB29ED2118F8B500F25196 /* AppDelegate.m */,
-				06AB29EF2118F8B500F25196 /* ViewController.h */,
-				06AB29F02118F8B500F25196 /* ViewController.m */,
-				06AB29F22118F8B500F25196 /* Main.storyboard */,
+				06AB2A202118F8DF00F25196 /* model */,
+				06AB2A1F2118F8C900F25196 /* controller */,
+				06AB2A1E2118F8BC00F25196 /* view */,
 				06AB29F52118F8B600F25196 /* Assets.xcassets */,
-				06AB29F72118F8B600F25196 /* LaunchScreen.storyboard */,
 				06AB29FA2118F8B600F25196 /* Info.plist */,
 				06AB29FB2118F8B600F25196 /* main.m */,
 			);
@@ -130,6 +127,33 @@
 				06AB2A122118F8B600F25196 /* Info.plist */,
 			);
 			path = 2PlayerMathUITests;
+			sourceTree = "<group>";
+		};
+		06AB2A1E2118F8BC00F25196 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				06AB29F22118F8B500F25196 /* Main.storyboard */,
+				06AB29F72118F8B600F25196 /* LaunchScreen.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		06AB2A1F2118F8C900F25196 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				06AB29EC2118F8B500F25196 /* AppDelegate.h */,
+				06AB29ED2118F8B500F25196 /* AppDelegate.m */,
+				06AB29EF2118F8B500F25196 /* ViewController.h */,
+				06AB29F02118F8B500F25196 /* ViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		06AB2A202118F8DF00F25196 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
