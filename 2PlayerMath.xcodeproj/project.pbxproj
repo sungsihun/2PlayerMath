@@ -15,6 +15,8 @@
 		06AB29FC2118F8B600F25196 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AB29FB2118F8B600F25196 /* main.m */; };
 		06AB2A062118F8B600F25196 /* _PlayerMathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AB2A052118F8B600F25196 /* _PlayerMathTests.m */; };
 		06AB2A112118F8B600F25196 /* _PlayerMathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AB2A102118F8B600F25196 /* _PlayerMathUITests.m */; };
+		06AB2A232118FD3F00F25196 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AB2A222118FD3F00F25196 /* Player.m */; };
+		06AB2A262118FD6600F25196 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AB2A252118FD6600F25196 /* GameModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		06AB2A0C2118F8B600F25196 /* 2PlayerMathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2PlayerMathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AB2A102118F8B600F25196 /* _PlayerMathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _PlayerMathUITests.m; sourceTree = "<group>"; };
 		06AB2A122118F8B600F25196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06AB2A212118FD3F00F25196 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		06AB2A222118FD3F00F25196 /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		06AB2A242118FD6600F25196 /* GameModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		06AB2A252118FD6600F25196 /* GameModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +158,10 @@
 		06AB2A202118F8DF00F25196 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				06AB2A212118FD3F00F25196 /* Player.h */,
+				06AB2A222118FD3F00F25196 /* Player.m */,
+				06AB2A242118FD6600F25196 /* GameModel.h */,
+				06AB2A252118FD6600F25196 /* GameModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -286,7 +296,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06AB2A232118FD3F00F25196 /* Player.m in Sources */,
 				06AB29F12118F8B500F25196 /* ViewController.m in Sources */,
+				06AB2A262118FD6600F25196 /* GameModel.m in Sources */,
 				06AB29FC2118F8B600F25196 /* main.m in Sources */,
 				06AB29EE2118F8B500F25196 /* AppDelegate.m in Sources */,
 			);
